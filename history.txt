@@ -1,0 +1,198 @@
+    1  cd
+    2  ssh-keyhen
+    3  ssh-keygen
+    4  cat .ssh/id_ed25519.pub~
+    5  cat .ssh/id_ed25519.pub
+    6  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGd3ieHwktrvouPJigHrqD+cUnFjHIlQHa9QEzKoO1xK Lenovo@DESKTOP-F4L8OOF
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  [200~scp ec2-user@linux.itcareerhub.de
+   10  cd daryna
+   11  ssh ec2-user@linux.itcareerhub.de
+   12  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGd3ieHwktrvouPJigHrqD+cUnFjHIlQHa9QEzKoO1xK Lenovo@DESKTOP-F4L8OOF
+   13  ec2-user@linux.itcareerhub.de
+   14   AAAAC3NzaC1lZDI1NTE5AAAAIGd3ieHwktrvouPJigHrqD+cUnFjHIlQHa9QEzKoO1xK
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17   ssh ec2-user@linux.itcareerhub.de
+   18  ssh ec2-user@linux.itcareerhub.de
+   19  ssh ec2-user@linux.itcareerhub.de
+   20  ssh ec2-user@linux.itcareerhub.de
+   21  echo "# git_intro" >> README.md
+   22  ls -la
+   23  git init
+   24  ls-la .git
+   25  ls la .git
+   26  tree .git
+   27  git add README.md
+   28  git commit -m "first commit"
+   29  git branch -M main
+   30  git remote add origin git@github.com:MontyPy4/git_intro.git
+   31  git push -u origin main
+   32  git init
+   33  git add "images.jfif"
+   34  git branch -M main
+   35  git remote add origin git@github.com:MontyPy4/git_intro.git
+   36  echo "# git_learn" >> README.md
+   37  ls -la
+   38  git init
+   39  tree .git
+   40  ls -la .git
+   41  md5sum README.md
+   42  git add .
+   43  git commit -m "first commit"
+   44  git config --global user.email "montypythonff@gmail.com"
+   45   git config --global user.name "MontyPy4"
+   46  git status 
+   47  git commit -m "first commit"
+   48  git status 
+   49  git log
+   50  git log --oneline
+   51  git branch
+   52  git branch -M main
+   53  git branch
+   54  git remote add origin git@github.com:MontyPy4/git_learn.git
+   55  git branch
+   56  git remote add origin git@github.com:MontyPy4/git_learn.git
+   57  git push -u origin main
+   58  vi README.md
+   59  passwords.txt
+   60  git status
+   61  git add READMI.md
+   62  touch  passwords.txt
+   63  git status
+   64  git add README.md
+   65  git add README.md
+   66  git status
+   67  git push
+   68  git commit -m "cheng_name"
+   69  git push
+   70  git init
+   71  git add images.jpg
+   72  git commit -m "Added photo"
+   73  git branch -M main
+   74  git remote add origin git@github.com:MontyPy4/git_intro.git
+   75  git remote -v
+   76  git push -u origin main
+   77  #!/bin/bash
+   78  set -e
+   79  echo "now: " $(date)
+   80  echo "hello"  $USER"!"
+   81  pwd 
+   82  ps -ef | grep bioset | grep -v grep | wc -l
+   83  ls -l /etc/passwd | awk '{print $1}'
+   84  ls
+   85  [200~
+   86  ssh ec2-user@linux.itcareerhub.de
+   87  cd git-branch_
+   88  ls
+   89  git clone git@github.com:MontyPy4/git-branch_.git
+   90  ls
+   91  cd git_branch_
+   92  cd git-branch_
+   93  git clone git@github.com:MontyPy4/git-branch.git
+   94  cd git-branch
+   95  git checkout -b gitignore
+   96  vi .gitignore
+   97  git status
+   98  git add .gitignore
+   99  git commit - m "added gitignore"
+  100  git commit -m "added gitignore"
+  101  git push origin gitignore
+  102  [200~ssh ec2-user@linux.itcareerhub.de~
+  103  ssh ec2-user@linux.itcareerhub.de
+  104  git clone https://github.com/ВАШ_ЛОГИН/learning_git.git
+  105  [200~git clone https://github.com/ВАШ_ЛОГИН/learning_git.git
+  106  git clone https://github.com/MontyPy4/learning_git.git
+  107  cd learning_git
+  108  mkdir 010825-ptm
+  109  cd 010825-ptm
+  110  echo "Daryna" > Daryna.txt
+  111  git add .
+  112  git commit -m "Добавлен файл Daryna в папку 010825-ptm"
+  113  git push origin main
+  114  git init
+  115  git branch -M main
+  116  echo "this is some content to mess with" > merge.txt
+  117  git status
+  118  git add merge.txt
+  119  git commit -m "we are commiting the inital content"
+  120  git status
+  121  git checkout -b new_branch_to_merge_later
+  122  echo "totally different content to merge later" > merge.txt
+  123  git commit -am "edited the content of merge.txt to cause a conflict"
+  124  git status 
+  125  git switch main
+  126  ls -la
+  127  cat merge.txt
+  128  cat merge.txt
+  129  echo "content to append" >> merge.txt
+  130  echo "content to append" >> merge.txt
+  131  git commit -am “edited the content of merge.txt to cause a conflict”
+  132  git log
+  133  git merge new_branch_to_merge_later
+  134  git commit -am "edited the content of merge.txt to cause a conflict”
+  135  git merge new_branch_to_merge_later
+  136  git commit -am "edited the content of merge.txt to cause a conflict"
+  137  git merge new_branch_to_merge_later
+  138  git status
+  139  vi merge.txt
+  140  git status
+  141  git add merge.txt
+  142  git status
+  143  git commit -m "Resolver the conflict"
+  144  git status
+  145  git log
+  146  git log --oneline --graph
+  147  git log  --graph
+  148  git remote -v
+  149  git remote add origin SSH: git@github.com:MontyPy4/My_project.git
+  150  git remore -v
+  151  git remote add origin git@github.com:MontyPy4/My_project.git
+  152  git fetch origin
+  153  git merge origin/main
+  154  git merge origin/main --allow-unrelated-histories
+  155  ls -la
+  156  git log --graph
+  157  git push
+  158  git push --set-upstream origin main
+  159  cd ..
+  160  mkdir 28.10
+  161  cd 28.10/
+  162  git clone [200~
+  163  git clone git@github.com:MontyPy4/lastcall.git
+  164  git clone git@github.com:MontyPy4/git-PR.git
+  165  git clone git@github.com:MontyPy4/My_project.git
+  166  find . -type d -name ".git"
+  167  find . -type d -name ".git" -exec rm -ri {} +
+  168  find . -type d -name ".git" -exec rm -rf {} +
+  169  ls -la
+  170  ls -la -PR
+  171  ls -la git -PR
+  172  git init
+  173  git branch -M main
+  174  git remote git@github.com:MontyPy4/28.10.git
+  175  git remote -v
+  176  git fetch
+  177  git merge origin/main
+  178  ec2-user@linux.itcareerhub.de
+  179  ssh ec2-user@linux.itcareerhub.de
+  180  mkdir -p /mnt/d/ICH/Linux
+  181  mkdir -p /d/ICH/Linux
+  182  scp -i ~/.ssh/mykey.pem ec2-user@linux.itcareerhub.de:/home/ec2-user/010825-ptm/linux_homework.txt /d/ICH/Linux/
+  183  history
+  184  git clone https://github.com/MontyPy4/hm_marge_rebase
+  185  cd hm_marge_rebase
+  186  git checkout -b feature
+  187  vi README.md
+  188  vi .gitignore
+  189  git add README.md .gitignore
+  190  git commit -m "Добавлены изменения в README и .gitignore"
+  191  git push -u origin feature
+  192  git commit --amend -m "Добавлены изменения в README и .gitignore (amend)"
+  193  git push origin feature --force
+  194  git checkout main
+  195  git pull origin main
+  196  git merge feature
+  197  git push origin main
+  198  history > history.txt
